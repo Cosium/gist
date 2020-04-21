@@ -4,12 +4,12 @@ Let be the following OpenID Connect client:
 
 ## Access token retrieval
 
-To retrieve the access token, you must authenticate to https://identity.cosium.net/auth/realms/general/protocol/openid-connect/token using BasicAuth.
+To retrieve the access token, you must authenticate to https://identity.cosium.com/auth/realms/general/protocol/openid-connect/token using BasicAuth.
 The token to provide is `base64Encode("tom:b7e35838-8757-4f34-b6e3-fe0b98c1b541")`=`dG9tOmI3ZTM1ODM4LTg3NTctNGYzNC1iNmUzLWZlMGI5OGMxYjU0MQ==`
 
 Request:
 ```
-POST https://identity.cosium.net/auth/realms/general/protocol/openid-connect/token
+POST https://identity.cosium.com/auth/realms/general/protocol/openid-connect/token
 Content-Type: application/x-www-form-urlencoded
 Authorization: Basic dG9tOmI3ZTM1ODM4LTg3NTctNGYzNC1iNmUzLWZlMGI5OGMxYjU0MQ==
 
